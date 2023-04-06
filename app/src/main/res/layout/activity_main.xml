@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08233a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/title"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="Les statistiques de mon potager"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/temp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/texttemp"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hum"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/texthum"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lux"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textlux"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/wind"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textwind"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blank"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textmoove"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:layout_width="220dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_height="wrap_content"
+            android:text="Mouvement : NON"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
